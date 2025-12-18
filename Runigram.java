@@ -24,9 +24,9 @@ public class Runigram {
 
     public static void print(Color c) {
         System.out.print("(");
-        System.out.printf("%3s,", c.getRed());
-        System.out.printf("%3s,", c.getGreen());
-        System.out.printf("%3s",  c.getBlue());
+        System.out.printf("%3d,", c.getRed());
+        System.out.printf("%3d,", c.getGreen());
+        System.out.printf("%3d",  c.getBlue());
         System.out.print(")  ");
     }
 
